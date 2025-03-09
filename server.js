@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT=3000
 
 //Home page api
-app.get('/home',(req, res)=>{
+app.get('/',(req, res)=>{
     res.send("<h1 align=center>WELCOME TO THE MERN STACK WEEK 2 SESSION</h1>")
 })
 
